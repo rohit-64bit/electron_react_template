@@ -1,0 +1,21 @@
+{
+    "appId": "com.your_app_name.app",
+    "files":[
+        "dist-react",
+        "src/electron-dev/main.js"
+    ],
+    "icon":"./assets/logo.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": [
+            "portable",
+            "msi"
+        ]
+    }
+}
